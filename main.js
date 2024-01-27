@@ -616,7 +616,7 @@
 		}
 	};
 
-	consolo.log(weaponsDirectory);
+	console.log(weaponsDirectory);
 	
 	const collectStatistics = () => {
 		const wrapper = document.getElementById('statistics-wrapper');
