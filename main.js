@@ -615,6 +615,8 @@
 			});
 		}
 	};
+
+	consolo.log(weaponsDirectory);
 	
 	const collectStatistics = () => {
 		const wrapper = document.getElementById('statistics-wrapper');
