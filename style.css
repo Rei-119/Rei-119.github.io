@@ -205,8 +205,8 @@
             background-size: 90%;
             background-repeat: no-repeat;
         }
-        /* .gained {
-        } */
+        .gained {
+        }
         .gained .weapon-image:hover {
             filter: brightness(110%);
         }
@@ -224,8 +224,8 @@
         .ungained .weapon-image:after {
             opacity: 0;
         }
-        /* .plural-gained {
-        } */
+        .plural-gained {
+        }
         .hidden {
             display: none;
         }
