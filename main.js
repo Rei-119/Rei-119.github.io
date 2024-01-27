@@ -32,8 +32,7 @@
 	const getMessage = (key) => messages[key][lang];
 
 	/** 画像ファイルが置いてあるディレクトリの場所 */
-	const weaponsDirectory = 'https://rei-119.github.io/image/'
-		                    https://gungeespla.github.io/salmon_learn/data/weapons_big/;
+	const weaponsDirectory = 'https://rei-119.github.io/image/';
 
 	/** ブキのデフォルト画像サイズ */
 	const defaultWeaponSize = 180;
