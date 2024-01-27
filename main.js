@@ -32,7 +32,7 @@
 	const getMessage = (key) => messages[key][lang];
 
 	/** 画像ファイルが置いてあるディレクトリの場所 */
-	const weaponsDirectory = 'https://github.com/Rei-119/weapons_of_salmonrun/blob/main/img/';
+	const weaponsDirectory = 'https://github.com/Rei-119/weapons_of_salmonrun/blob/main/image/';
 
 	/** ブキのデフォルト画像サイズ */
 	const defaultWeaponSize = 180;
