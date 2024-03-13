@@ -201,6 +201,9 @@
 		5040: {
 			ja: 'ケルビン525', en: 'Glooga Dualies', type: 'dualies', bottom: 0,
 		},
+		5050: {
+			ja: 'ガエンFF', en: 'Douser Dualies FF', type: 'dualies', bottom: 0,
+		},
 		5500: {
 			ja: 'パラシェルター', en: 'Splat Brella', type: 'brellas', bottom: 0,
 		},
@@ -209,6 +212,9 @@
 		},
 		5520: {
 			ja: 'スパイガジェット', en: 'Undercover Brella', type: 'brellas', bottom: 0,
+		},
+		5530: {
+			ja: '24式張替傘・甲', en: 'Recycled Brella 24 Mk I', type: 'brellas', bottom: 0,
 		},
 		6000: {
 			ja: 'トライストリンガー', en: 'Tri-Stringer', type: 'stringers', bottom: 0,
