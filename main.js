@@ -222,11 +222,17 @@
 		6010: {
 			ja: 'LACT450', en: 'REEF-LUX 450', type: 'stringers', bottom: 0,
 		},
+		6020: {
+			ja: 'フルイドV', en: 'Wellstring V', type: 'stringers', bottom: 0,
+		},
 		6600: {
 			ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'splatanas', bottom: 0,
 		},
 		6610: {
 			ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'splatanas', bottom: 0,
+		},
+		6620: {
+			ja: 'デンタルワイパーミント', en: 'Mint Decavitator', type: 'splatanas', bottom: 0,
 		},
 		7000: {
 			ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzcos', bottom: 0,
@@ -248,6 +254,9 @@
 		},
 		7060: {
 			ja: 'クマサン印のワイパー', en: 'Grizzco Splatana', type: 'grizzcos', bottom: 0,
+		},
+		7070: {
+			ja: 'クマサン印のローラー', en: 'Grizzco Splatana', type: 'grizzcos', bottom: 0,
 		},
 	};
 
@@ -334,12 +343,12 @@
 				}
 			}
 		}
-		if (grizzcoVisibleOption < 7070) {
+		if (grizzcoVisibleOption < 7080) {
 			if (counts[grizzcoVisibleOption] < 1) {
 				return false;
 			}
 		} else {
-			for (let id = 7000; id < 7070; id += 10) {
+			for (let id = 7000; id < 7080; id += 10) {
 				if (counts[id] < 1) {
 					return false;
 				}
