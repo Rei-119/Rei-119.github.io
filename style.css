@@ -193,7 +193,7 @@
             );
             user-select: none;
         }
-        .weapon-image:after {
+/*         .weapon-image:after {
             content: '';
             display: inline-block;
             position: relative;
@@ -204,7 +204,7 @@
             background-image: url('https://rei-119.github.io/salmon_weapons_images/shadow.png');
             background-size: 90%;
             background-repeat: no-repeat;
-        }
+        } */
         .gained {
         }
         .gained .weapon-image:hover {
