@@ -481,7 +481,7 @@
 		Array.prototype.forEach.call(weaponElms, (elm) => {
 			elm.classList.add('hidden');
 		});
-		if (grizzcoVisibleOption < 7070) {
+		if (grizzcoVisibleOption < 7080) {
 			document.getElementById(`weapon-${grizzcoVisibleOption}`)
 				.classList.remove('hidden');
 		} else {
